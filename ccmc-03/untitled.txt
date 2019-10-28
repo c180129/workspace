@@ -1,0 +1,17 @@
+class Student {
+    xString name;
+    private $name;
+    private $age;
+    function __construct($name, $age) {
+        $name = $name;
+        $ageg = $age;
+    }
+}
+function getName(){
+        return $this->name;
+    }
+    function setName(string $name):void {
+    $this->name = $name;
+    }
+}
+$student = new Student("hogehoge", 21);

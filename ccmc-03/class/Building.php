@@ -20,9 +20,9 @@ class Building {
         $this->age = $age;
     }
     function getProfile():string {
-        $profile = "{$this->name} の高さは {$this-height} mです。";
+        $profile = "{$this->name} の高さは {$this-height} mです";
         return $profile;
     }
 }
-}
+}                            
 ?>

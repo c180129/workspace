@@ -1,0 +1,27 @@
+header p {
+  margin-right: 2rem;
+  margin-bottom: 1.50rem;
+  text-align: right;
+}
+
+form input[type="text"] {
+  width: 10rem;
+}
+form input[name="address"] {
+  margin-left: 2rem;
+}
+
+table tr td:first-child {
+  padding: 0.75rem 0.50rem;
+}
+table tr td:not(:first-child) {
+  padding-top: 1.0rem;
+  vertical-align: top;
+}
+table.detail tr td {
+  padding: 0.125rem 0.75rem;
+}
+table.detail tr:first-child td {
+  font-weight: bold;
+  font-size: 150%;
+}
